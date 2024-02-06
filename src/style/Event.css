@@ -1,0 +1,58 @@
+.event-header {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: underline;
+}
+
+.event-title {
+  font-weight: bold;
+  margin-left: -180px;
+}
+
+.see-all-link {
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: -180px;
+  text-decoration: underline;
+}
+
+.event-card {
+  margin-top: 40px;
+  border: 0;
+  position: relative;
+  width: 100%; /* Change to 100% for full width */
+  height: 780px; /* Adjust height as needed */
+  margin: auto;
+  border: 1px solid black;
+}
+
+.image {
+  width: 100%; /* Change to 100% for full width */
+  height: 600px; /* Adjust height as needed */
+  position: relative;
+  margin-top: 0;
+  padding: 2px;
+}
+
+.event-details {
+
+  padding-top: 590px; /* Adjust padding-top as needed */
+  color: black;
+ float: left;
+}
+
+.event-name {
+  font-size: 3rem;
+  margin-left: 60px;
+ 
+}
+
+.event-description {
+  font-size: 1.2rem;
+  margin-left: 60px;
+}
+

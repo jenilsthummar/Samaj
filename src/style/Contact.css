@@ -1,0 +1,50 @@
+.admin {
+  text-align: center;
+  margin-top: 60px;
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ 
+}
+
+.custom-card {
+  width: 18rem;
+  margin: 20px;
+  overflow: hidden;
+  position: relative;
+ 
+}
+
+.card-image {
+  width: 100%;
+  height: 350px; 
+  margin-top: 0;
+  object-fit: cover;
+  opacity: 0.9;
+  transition: transform 0.5s;
+  transition: 0.5s;
+}
+
+.custom-card:hover .card-image {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.admin p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.view-all-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* h1,
+.custom-card {
+  margin-bottom: 20px;
+} */
