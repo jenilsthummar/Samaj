@@ -1,9 +1,12 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import First from '../Assets/first.jpg';
-import third from '../Assets/third.jpg';
-import second from '../Assets/second.jpeg';
+import First from '../Assets/first.jpeg';
+import third from '../Assets/third.jpeg';
+import second from '../Assets/second.jpg';
 import '../style/HeroSection.css';
+import { TypeAnimation } from "react-type-animation";
+import { motion } from "framer-motion";
+import { fadeIn } from "../Varients";
 
 function Hero() {
   const fixedText = {
@@ -20,8 +23,18 @@ function Hero() {
     <div className="hero-container">
       <div className="image-overlay">
         <div className="text-content">
-          <h1>{fixedText.text}</h1>
-          <span><h1>{fixedText.title}</h1></span> <br/>
+          <motion.div
+              variants={fadeIn("up", 0.4)}
+              className="welcome"
+              style={{textDecoration:"none"}}
+            >
+              <span className="mr-4 text-white">Welcome to</span><br/>
+              <TypeAnimation
+                sequence={["Shree Leua Patel Samaj", 3000, "", 50]}
+                speed={30}
+                repeat={Infinity}
+              />
+            </motion.div> <br/>
           <p>{fixedText.descriptionLine1}</p>
           <p>{fixedText.descriptionLine2}</p>
           <p>{fixedText.descriptionLine3}</p>

@@ -1,21 +1,21 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import manager from '../Assets/manager.jpg';
+import manager from '../Assets/manager.jpeg';
 import '../style/Contact.css';
 
 function BasicExample() {
-  const numberOfCards = 3;
-  const cards = [];
+  const totalCards = 3; // Total number of cards
 
-  for (let i = 0; i < numberOfCards; i++) {
+  // Generate cards array
+  const cards = [];
+  for (let i = 0; i < totalCards; i++) {
     cards.push(
       <Card key={i} className="custom-card">
         <Card.Img variant="top" src={manager} className="card-image" />
         <Card.Body>
           <Card.Title>John Doe</Card.Title>
           <Card.Text>Manager</Card.Text>
-          <Button variant="primary">Contact</Button>
+          <input type='button' className='contact-btn' value={"Contact"} />
         </Card.Body>
       </Card>
     );
@@ -23,9 +23,8 @@ function BasicExample() {
 
   return (
     <>
-    
       <div className='admin'>
-        <h1>Admin Committee</h1>
+        <p>Trustees</p>
       </div>
       <div className="container">
         {cards}

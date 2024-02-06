@@ -1,3 +1,5 @@
+// ImgOverlayExample.js
+
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Event from '../Assets/event.jpeg';
@@ -15,11 +17,11 @@ function ImgOverlayExample() {
         <Card.ImgOverlay className="card-overlay">
           <div className="event-details">
             <h1 className="event-name">SnehMilan</h1>
-            <p className="event-description">Event details or additional text goes here.Event details or additional text goes here.Event details or additional text goes here.Event details or additional text goes here.Event details or additional text goes here.Event details or additional text goes here.Event details or additional text goes here.Event details or additional text goes here.Event details or additional text goes here.Event details or additional text goes here.</p>
+            <p className="event-description">Event details or additional text goes here. Event details or additional text goes here. Event details or additional text goes here. Event details or additional text goes here. Event details or additional text goes here. Event details or additional text goes here. Event details or additional text goes here. Event details or additional text goes here. Event details or additional text goes here. Event details or additional text goes here.</p>
+            
           </div>
         </Card.ImgOverlay>
       </Card>
-      
     </>
   );
 }

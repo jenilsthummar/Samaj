@@ -1,22 +1,26 @@
 .event-header {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 50px  ;
   margin-bottom: 50px;
   font-weight: bold;
   display: flex;
   justify-content: space-around;
   text-decoration: underline;
+  color: rgb(92, 88, 88);
+
 }
 
 .event-title {
   font-weight: bold;
   margin-left: -180px;
+  font-size: 2.5rem;
+  
 }
 
 .see-all-link {
   cursor: pointer;
   margin-top: 20px;
-  margin-right: -180px;
+  margin-right: -200px;
   text-decoration: underline;
 }
 
@@ -24,35 +28,52 @@
   margin-top: 40px;
   border: 0;
   position: relative;
-  width: 100%; /* Change to 100% for full width */
-  height: 780px; /* Adjust height as needed */
+  width: 100%;
+  height: 600px;
   margin: auto;
-  border: 1px solid black;
+  overflow: hidden;
 }
 
 .image {
-  width: 100%; /* Change to 100% for full width */
-  height: 600px; /* Adjust height as needed */
+  width: 100%;
+  height: 100%;
+  margin: auto;
   position: relative;
-  margin-top: 0;
-  padding: 2px;
+  transition: transform 0.5s ease;
 }
 
 .event-details {
-
-  padding-top: 590px; /* Adjust padding-top as needed */
-  color: black;
- float: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  width: 80%;
 }
 
 .event-name {
   font-size: 3rem;
-  margin-left: 60px;
- 
+  margin-bottom: 10px;
+  color: #fff; /* Change to your preferred color */
 }
 
 .event-description {
   font-size: 1.2rem;
-  margin-left: 60px;
+  line-height: 1.5;
+  color: #ecf0f1; /* Change to your preferred color */
 }
 
+.event-card:hover .image {
+  transform: scale(1.1);
+}
+
+
+
+@media (max-width: 768px) {
+  .event-details {
+    width: 90%;
+  }
+}

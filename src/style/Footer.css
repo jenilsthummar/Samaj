@@ -1,0 +1,100 @@
+.contact-short {
+    max-width: 60vw;
+    margin: auto;
+    
+    border-radius: 1rem;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    transform: translateY(50%);
+    background-color: #ffffff; /* Replace with your theme's bg color */
+}
+
+.contact-short .grid div:last-child {
+    justify-self: end;
+    align-self: center;
+}
+
+footer {
+    padding-top: 2rem;
+    background-color: #2f2f2f;
+    width: 100%;
+    height: 420px;
+}
+
+.footer-about{
+    margin-left: -130px;
+}
+
+.footer-subscribe{
+    margin-left: -70px;
+}
+footer h3 {
+    color: #ffffff; 
+    margin-bottom: 2.4rem;
+    transition: 0.5s;
+}
+
+.footer-contact h4{
+    margin-right: -150px;
+    color: white;
+}
+
+footer p {
+    color: #ffffff; 
+    transition: 0.3s;
+}
+
+.footer-social--icons {
+    display: flex;
+    gap: 15px;
+    width: 50px;
+    height: auto;
+    margin-left: -30px;
+    margin-top: -20px;
+}
+
+
+.footer-social--icons div {
+    padding: 1rem;
+    border-radius: 50%;
+    border: 0 solid transparent; 
+    background-color: #e3e3e33a;
+}
+
+.footer-social--icons div:hover{
+    background-color: #464646;
+}
+
+.footer-social--icons .icons {
+    color: #ffffff; /* Replace with your theme's white color */
+    font-size: 1.5rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer-bottom--section {
+    padding-top: 4rem;
+}
+
+.footer-bottom--section hr {    
+    color: #ffffff; 
+    height: 2px;
+}
+
+.bottom{
+    text-align: center;
+}
+.bottom span{
+    color: red;
+}
+
+footer h3:hover{
+    text-decoration: underline;
+}
+ 
+footer p:hover{
+    color: #969696;
+ }
+
+ .footer-contact p:hover{
+    text-decoration: underline;
+ }

@@ -1,7 +1,11 @@
 .admin {
   text-align: center;
   margin-top: 60px;
+  font-size: 2.4rem;
   text-decoration: underline;
+  font-weight: 800;
+  color: rgb(92, 88, 88);
+
 }
 
 .container {
@@ -16,7 +20,8 @@
   margin: 20px;
   overflow: hidden;
   position: relative;
- 
+  border: 2px solid black;
+  background: rgb(238, 238, 238);
 }
 
 .card-image {
@@ -44,7 +49,18 @@
   margin-top: 20px;
 }
 
-/* h1,
-.custom-card {
-  margin-bottom: 20px;
-} */
+
+.contact-btn {
+  margin-top: 5px; 
+  margin-left: 12%;
+  background-color: #007bff; 
+  color: #fff; 
+  border: none; 
+  padding: 10px 70px; 
+  border-radius: 5px; 
+  font-size: 1rem; 
+}
+
+.contact-btn:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
