@@ -1,8 +1,7 @@
 
   img{
     width: auto;
-    height: 95vh;
-    margin-top: 5vh;
+    height: 100vh;    
     object-fit: cover;
 }
   .text-content {
@@ -13,6 +12,9 @@
     color: white;
     text-align: center;
     z-index: 2;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+   
   }
   .image-overlay {
     position: absolute;
@@ -36,37 +38,43 @@
   }
 
   button{
-      width: 250px;
+      width: 200px;
       height: 50px;
-      background-color: whitesmoke;
-      color: black;
-      border-radius: 8px;
+      background-color: transparent;
+      color: rgb(255, 255, 255);
+      border-radius: 50px;
       position: absolute;
-      left: 450px;
-      top: 350px;
-      
+      margin-left: -100px;
+      margin-top: 50px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      transition: .5s;
+      border: 2px solid red;
   }
   button:hover{
-      background: rgb(203, 201, 201);
-      transition: .5s;
+      background: rgb(255, 0, 0);
+    
   }
  
 .text-content h1{
-  font-size: 50px;
-  margin-left: -770px;
-  font-weight: 700;
-}
-.text-content span{
   color: rgb(255, 0, 0);
-  margin-bottom: 50px;
-  text-decoration: underline;
+  font-size: 56px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
-  
-.text-content p{
-  margin-left: -770px;  
-  line-height: 5px;
-  
 
+.text-content h2{
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+.text-content p{
+  line-height: 15px;
+  font-size: 20px;
 }
 
 .hero-container {
@@ -74,9 +82,9 @@
 }
 
 .welcome{
-  font-size: 40px;
-  margin-left: -800px;
-  text-decoration: none;
+  font-size: 56px;
+  
+ 
 }
 
 

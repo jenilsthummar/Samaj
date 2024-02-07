@@ -16,12 +16,13 @@
 }
 
 .custom-card {
-  width: 18rem;
+  width: 19rem;
   margin: 20px;
   overflow: hidden;
   position: relative;
   border: 2px solid black;
   background: rgb(238, 238, 238);
+  border-radius: 15px;
 }
 
 .card-image {
@@ -34,7 +35,7 @@
   transition: 0.5s;
 }
 
-.custom-card:hover .card-image {
+.custom-card .card-image:hover {
   transform: scale(1.05);
   opacity: 1;
 }

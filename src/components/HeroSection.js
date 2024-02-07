@@ -23,22 +23,12 @@ function Hero() {
     <div className="hero-container">
       <div className="image-overlay">
         <div className="text-content">
-          <motion.div
-              variants={fadeIn("up", 0.4)}
-              className="welcome"
-              style={{textDecoration:"none"}}
-            >
-              <span className="mr-4 text-white">Welcome to</span><br/>
-              <TypeAnimation
-                sequence={["Shree Leua Patel Samaj", 3000, "", 50]}
-                speed={30}
-                repeat={Infinity}
-              />
-            </motion.div> <br/>
+          <h2>{fixedText.text}</h2>
+          <h1>{fixedText.title}</h1>
           <p>{fixedText.descriptionLine1}</p>
-          <p>{fixedText.descriptionLine2}</p>
+          {/* <p>{fixedText.descriptionLine2}</p>
           <p>{fixedText.descriptionLine3}</p>
-          <p>{fixedText.descriptionLine4}</p>
+          <p>{fixedText.descriptionLine4}</p> */}
           <button>{fixedText.buttonLabel}</button>
         </div>
       </div>
