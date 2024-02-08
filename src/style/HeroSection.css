@@ -1,3 +1,14 @@
+.text-content {
+  opacity: 0;
+  transform: translate();
+  transition: opacity 0.7s ease, transform 0.5s ease;
+}
+
+.text-content.animate {
+  opacity: 1;
+  transform: translate(1);
+}
+
 
   img{
     width: auto;
@@ -37,7 +48,7 @@
     z-index: 1;
   }
 
-  button{
+  .booking{
       width: 200px;
       height: 50px;
       background-color: transparent;
@@ -49,10 +60,10 @@
       font-family: 'Raleway', sans-serif;
       font-weight: 600;
       font-size: 20px;
-      transition: .5s;
+      transition: 0.3s;
       border: 2px solid red;
   }
-  button:hover{
+  .booking:hover{
       background: rgb(255, 0, 0);
     
   }
@@ -82,9 +93,7 @@
 }
 
 .welcome{
-  font-size: 56px;
-  
- 
+  font-size: 56px; 
 }
 
 

@@ -3,23 +3,24 @@ import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Hero from './components/HeroSection';
 import ImgOverlayExample from './components/Event';
-import BasicExample from './components/Contact';
+import BasicExample from './components/admin';
 import MyGallery from './components/Gallery';
-import GlobalStyle from './components/Fontstyle';
 import Footer from './components/Footer';
+import ContactForm from './components/ContactForm';
 
 
 function App() {
   return (
     <>
-        <div className='main'>
+        <div className='main' bg='dark'>
           <Header/>
           <Hero/>
           <ImgOverlayExample/>
           <BasicExample/>
           <MyGallery/>
+          <ContactForm/>
           <Footer/>
-          <GlobalStyle />
+         
         </div>    
     </>
   );

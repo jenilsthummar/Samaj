@@ -5,7 +5,8 @@ import '../style/Footer.css'
 const Footer = () => {
   return (
     <>
-          <footer><hr/>
+          <footer>
+            <hr/>
           <div className="container grid grid-four-column">
             <div className="footer-about">
               <h3>Shree Leua Patel Samaj</h3>
