@@ -12,7 +12,7 @@
 }
 
 .navbar.scrolled {
-  background-color: #000000; /* Change to your desired background color */
+  background-color: #454547; /* Change to your desired background color */
 }
  
 .container{
@@ -27,7 +27,7 @@
   }
   
   .navbar-nav .nav-link:hover {
-    color: #f90000;
+    color: #c3073f;
   }
 
   .logo{

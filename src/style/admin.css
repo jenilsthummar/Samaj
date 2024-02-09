@@ -4,7 +4,7 @@
   font-size: 2.4rem;
   text-decoration: underline;
   font-weight: 800;
-  color: rgb(92, 88, 88);
+  color: #c3073f;
 
 }
 
@@ -20,11 +20,12 @@
   margin-bottom: 40px;
   overflow: hidden;
   position: relative;
-  border: 2px solid black;
-  background: rgb(238, 238, 238);
+  border: none;
+  background: #454547;
   border-radius: 15px;
-  width: 300px;
+  width: 320px;
   height: 500px;
+  color: #fff;
 }
 
 .custom-card {
